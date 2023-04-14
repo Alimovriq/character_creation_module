@@ -41,7 +41,7 @@ def special(char_name: str, char_class: str) -> str:
 
 
 def start_training(char_name: str, char_class: str) -> str:
-    """Функция отвечает начало тренировки."""
+    """Функция отвечает за начало тренировки."""
     if char_class == 'healer':
         print(f'{char_name}, ты Лекарь — чародей, способный исцелять раны.')
     elif char_class == 'mage':
